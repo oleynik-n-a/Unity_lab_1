@@ -19,6 +19,11 @@ namespace _Source.Core
             }
         }
 
+        public ObservableInt()
+        {
+            _value = 0;
+        }
+        
         public ObservableInt(int value) 
         {
             _value = value;
