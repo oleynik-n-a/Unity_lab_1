@@ -15,7 +15,7 @@ namespace _Source.Core
 
     public class ResourceBank
     {
-        private Dictionary<GameResource, ObservableInt> _bank;
+        private readonly Dictionary<GameResource, ObservableInt> _bank;
 
         public ResourceBank()
         {
